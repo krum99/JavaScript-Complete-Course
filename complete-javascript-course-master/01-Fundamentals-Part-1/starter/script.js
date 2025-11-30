@@ -33,4 +33,14 @@
 //   console.log("7 is also cool number!")
 // } else{
 //   console.log("Number is not 27 or 7")
-}
+// }
+
+
+const age = 23;
+
+age >= 18 ? console.log("I like to dring wine!") :  console.log("I like to dring water");
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink)
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}!`)
