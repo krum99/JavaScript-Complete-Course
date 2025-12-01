@@ -24,7 +24,26 @@
 // };
 // console.log(ageUntilRetirement(1999, 'Krum'));
 
-const friends = [1, '23', 'stringsad'];
+const friends = [1, '23', 'string'];
 
+// add elements
 console.log(friends);
 console.log(friends.length);
+
+const newLength = friends.push('one more element');
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('first');
+console.log(friends);
+
+// remove elements
+console.log(friends.pop());
+console.log(friends.shift());
+
+console.log(friends);
+
+console.log(friends.indexOf('23')); //return index of element
+
+console.log(friends.includes(1));
+console.log(friends.includes(10));
